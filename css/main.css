@@ -88,13 +88,14 @@ body{
    display: flex;
  }
 }
-@media (max-width: 500px) {
+@media (max-width: 774px) {
   .main{
     width: 100%;
   }
   .sub{
-    display: block;
-    
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
   }
   .sub>div{
     margin: 0 auto;
